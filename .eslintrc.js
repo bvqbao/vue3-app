@@ -11,4 +11,10 @@ module.exports = {
 	parserOptions: {
 		ecmaVersion: 'latest',
 	},
+	ignorePatterns: [
+		'postcss.config.js',
+		'tailwind.config.js',
+		'prettier.config.js',
+		'vue.config.js',
+	],
 };
