@@ -4,7 +4,11 @@ module.exports = {
 		node: true,
 		browser: true,
 	},
-	extends: ['plugin:vue/vue3-essential', 'eslint:recommended'],
+	extends: [
+		'eslint:recommended',
+		'plugin:vue/vue3-recommended',
+		'@vue/eslint-config-prettier/skip-formatting',
+	],
 	parserOptions: {
 		ecmaVersion: 'latest',
 	},
